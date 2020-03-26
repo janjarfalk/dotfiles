@@ -14,4 +14,4 @@ source terminal.sh
 
 # TODO: Remove this.
 # Fix permissions
-sudo chown -R $(whoami) .config
+sudo chown -R $(whoami) ~/.config
