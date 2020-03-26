@@ -33,3 +33,10 @@ sudo npm install --global diff-so-fancy
 # Install Logitech Vertical MX drivers.
 brew tap homebrew/cask-drivers
 brew cask install logitech-options
+
+# Install App Store applications.
+brew install mas
+mas signin jan@jarfalk.se
+mas install 441258766 # Magnet
+mas install 1116599239 # NordVPN
+
