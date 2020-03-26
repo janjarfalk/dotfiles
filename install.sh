@@ -19,16 +19,11 @@ brew cask install iterm2
 # Install git and the Github exenstions hub.
 brew install git hub
 
-# Install the Node version manager n.
-brew install n
-sudo n latest
+# Install node and node related things.
+source node.sh
 
 # Install global npm packages.
-sudo npm install --global diff-so-fancy
-
-# brew tap homebrew/cask-fonts
-# brew cask install font-source-code-pro
-# brew cask install font-menlo-for-powerline
+npm install --global diff-so-fancy
 
 # Install Logitech Vertical MX drivers.
 brew tap homebrew/cask-drivers
