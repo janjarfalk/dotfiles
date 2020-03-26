@@ -12,3 +12,6 @@ source dotfiles.sh
 # Setup my terminal
 source terminal.sh
 
+# TODO: Remove this.
+# Fix permissions
+sudo chown -R $(whoami) .config
