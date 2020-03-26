@@ -1,0 +1,11 @@
+[user]
+	name = Jan K. Griffioen-Järfalk
+	email = jan@jarfalk.se
+[credential]
+	helper = osxkeychain
+
+[core]
+
+	# Use custom `.gitignore` and `.gitattributes`
+	excludesfile = ~/.gitignore
+	attributesfile = ~/.gitattributes
