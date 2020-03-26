@@ -6,11 +6,11 @@ source osx.sh
 # Download and install.
 source install.sh
 
-# Symlink dotfiles
-source dotfiles.sh
-
 # Setup my terminal
 source terminal.sh
+
+# Symlink dotfiles
+source dotfiles.sh
 
 # TODO: Remove this.
 # Fix permissions
