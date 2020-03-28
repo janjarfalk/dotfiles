@@ -1,16 +1,13 @@
 #!/usr/bin/env bash
 
 # Configure OSX
-source osx.sh
+source ./macos/_.sh
 
 # Download and install.
-source install.sh
-
-# Setup my terminal
-source terminal.sh
+source ./install/_.sh
 
 # Symlink dotfiles
-source dotfiles.sh
+source ./symlink/_.sh
 
 # TODO: Remove this.
 # Fix permissions

@@ -12,4 +12,4 @@ brew install n
 n latest
 
 # Install global npm packages.
-npm install --global diff-so-fancy
+# npm install --global diff-so-fancy
