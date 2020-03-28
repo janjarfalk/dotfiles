@@ -3,9 +3,9 @@
 ###############################################################################
 
 # Set computer name (as done via System Preferences → Sharing)
-sudo scutil --set ComputerName "0xffffff"
-sudo scutil --set HostName "0xffffff"
-sudo scutil --set LocalHostName "0xffffff"
+sudo scutil --set ComputerName "0x000000"
+sudo scutil --set HostName "0x000000"
+sudo scutil --set LocalHostName "0x000000"
 sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0xffffff"
 
 # Disable the sound effects on boot
@@ -15,7 +15,7 @@ sudo nvram SystemAudioVolume=" "
 # defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to green
-defaults write NSGlobalDomain AppleHighlightColor -string "0.764700 0.976500 0.568600"
+defaults write NSGlobalDomain AppleHighlightColor -string "0 0 0"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
