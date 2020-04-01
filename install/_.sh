@@ -15,6 +15,11 @@ brew cask install 1password
 brew cask install kaleidoscope
 brew cask install slack
 
+# TODO
+# Charles
+# Screaming Frog
+# Postman?
+
 # Terminal
 brew cask install iterm2
 sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"

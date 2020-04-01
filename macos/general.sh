@@ -6,7 +6,7 @@
 sudo scutil --set ComputerName "0x000000"
 sudo scutil --set HostName "0x000000"
 sudo scutil --set LocalHostName "0x000000"
-sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0xffffff"
+sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.server NetBIOSName -string "0x000000"
 
 # Disable the sound effects on boot
 sudo nvram SystemAudioVolume=" "
@@ -15,7 +15,7 @@ sudo nvram SystemAudioVolume=" "
 # defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to green
-defaults write NSGlobalDomain AppleHighlightColor -string "0 0 0"
+defaults write NSGlobalDomain AppleHighlightColor -string "0.5 0.5 0.5"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2
