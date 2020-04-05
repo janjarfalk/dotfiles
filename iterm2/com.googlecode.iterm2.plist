@@ -40,41 +40,8 @@
 	<false/>
 	<key>NSScrollViewShouldScrollUnderTitlebar</key>
 	<false/>
-	<key>NSSplitView Subview Frames NSColorPanelSplitView</key>
-	<array>
-		<string>0.000000, 0.000000, 224.000000, 258.000000, NO, NO</string>
-		<string>0.000000, 259.000000, 224.000000, 48.000000, NO, NO</string>
-	</array>
-	<key>NSTableView Columns v2 KeyBingingTable</key>
-	<data>
-	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
-	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABrgsMEx4fICEiIyQqNDU2VSRu
-	dWxs0g0ODxJaTlMub2JqZWN0c1YkY2xhc3OiEBGAAoAKgA3TFA0OFRkdV05TLmtleXOj
-	FhcYgAOABIAFoxobHIAGgAeACIAJWklkZW50aWZpZXJVV2lkdGhWSGlkZGVuUTAjQGjA
-	AAAAAAAI0iUmJyhaJGNsYXNzbmFtZVgkY2xhc3Nlc1xOU0RpY3Rpb25hcnmiJylYTlNP
-	YmplY3TTFA0OKy8doxYXGIADgASABaMwMRyAC4AMgAiACVExI0BzsZ2yLQ5W0iUmNzhe
-	TlNNdXRhYmxlQXJyYXmjNzkpV05TQXJyYXkACAARABoAJAApADIANwBJAEwAUgBUAGMA
-	aQBuAHkAgACDAIUAhwCJAJAAmACcAJ4AoACiAKYAqACqAKwArgC5AL8AxgDIANEA0gDX
-	AOIA6wD4APsBBAELAQ8BEQETARUBGQEbAR0BHwEhASMBLAExAUABRAAAAAAAAAIBAAAA
-	AAAAADoAAAAAAAAAAAAAAAAAAAFM
-	</data>
-	<key>NSTableView Sort Ordering v2 KeyBingingTable</key>
-	<data>
-	YnBsaXN0MDDUAQIDBAUGBwpYJHZlcnNpb25ZJGFyY2hpdmVyVCR0b3BYJG9iamVjdHMS
-	AAGGoF8QD05TS2V5ZWRBcmNoaXZlctEICVVBcnJheYABowsMEVUkbnVsbNINDg8QWk5T
-	Lm9iamVjdHNWJGNsYXNzoIAC0hITFBVaJGNsYXNzbmFtZVgkY2xhc3Nlc15OU011dGFi
-	bGVBcnJheaMUFhdXTlNBcnJheVhOU09iamVjdAgRGiQpMjdJTFJUWF5jbnV2eH2IkaCk
-	rAAAAAAAAAEBAAAAAAAAABgAAAAAAAAAAAAAAAAAAAC1
-	</data>
-	<key>NSTableView Supports v2 KeyBingingTable</key>
-	<true/>
-	<key>NSToolbar Configuration com.apple.NSColorPanel</key>
-	<dict>
-		<key>TB Is Shown</key>
-		<integer>1</integer>
-	</dict>
 	<key>NSWindow Frame iTerm Window 0</key>
-	<string>191 202 570 367 0 0 1680 1027 </string>
+	<string>191 124 849 442 0 0 1680 1027 </string>
 	<key>New Bookmarks</key>
 	<array>
 		<dict>
@@ -768,27 +735,12 @@
 	<array>
 		<string>3.3.9</string>
 	</array>
-	<key>NoSyncBFPRecents</key>
-	<array>
-		<string>Menlo</string>
-	</array>
-	<key>NoSyncFrame_SharedPreferences</key>
-	<dict>
-		<key>screenFrame</key>
-		<string>{{0, 0}, {1680, 1050}}</string>
-		<key>topLeft</key>
-		<string>{457, 976}</string>
-	</dict>
 	<key>NoSyncInstallationId</key>
-	<string>8C4F6435-4708-470E-9355-F1A114FF286D</string>
+	<string>C92FA91C-BA11-4155-857D-99A0CC7959AF</string>
 	<key>NoSyncLaunchExperienceControllerRunCount</key>
-	<integer>15</integer>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile</key>
-	<true/>
-	<key>NoSyncNeverRemindPrefsChangesLostForFile_selection</key>
-	<integer>0</integer>
+	<integer>3</integer>
 	<key>NoSyncNextAnnoyanceTime</key>
-	<real>607044424.21823597</real>
+	<real>607988671.18626499</real>
 	<key>NoSyncOnboardingWindowHasBeenShown</key>
 	<true/>
 	<key>NoSyncRecordedVariables</key>
@@ -1141,7 +1093,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.terminalIconName</string>
+				<string>currentTab.currentSession.terminalWindowName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1149,7 +1101,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentTab.currentSession.terminalWindowName</string>
+				<string>currentTab.currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1278,17 +1230,17 @@
 		<array>
 			<dict>
 				<key>isTerminal</key>
-				<true/>
+				<false/>
 				<key>name</key>
-				<string>currentSession.pid</string>
+				<string>currentSession</string>
 				<key>nonterminalContext</key>
-				<integer>0</integer>
+				<integer>1</integer>
 			</dict>
 			<dict>
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.terminalIconName</string>
+				<string>currentSession.commandLine</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1320,7 +1272,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.commandLine</string>
+				<string>currentSession.terminalIconName</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1337,6 +1289,14 @@
 				<true/>
 				<key>name</key>
 				<string>iterm2.localhostName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
+				<string>currentSession.jobPid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1440,6 +1400,14 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
+				<string>currentSession.terminalWindowName</string>
+				<key>nonterminalContext</key>
+				<integer>0</integer>
+			</dict>
+			<dict>
+				<key>isTerminal</key>
+				<true/>
+				<key>name</key>
 				<string>currentSession.hostname</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
@@ -1448,7 +1416,7 @@
 				<key>isTerminal</key>
 				<true/>
 				<key>name</key>
-				<string>currentSession.terminalWindowName</string>
+				<string>currentSession.pid</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
 			</dict>
@@ -1475,14 +1443,6 @@
 				<string>currentSession</string>
 				<key>nonterminalContext</key>
 				<integer>0</integer>
-			</dict>
-			<dict>
-				<key>isTerminal</key>
-				<false/>
-				<key>name</key>
-				<string>currentSession</string>
-				<key>nonterminalContext</key>
-				<integer>1</integer>
 			</dict>
 		</array>
 		<key>4</key>
@@ -1514,7 +1474,40 @@
 		</array>
 	</dict>
 	<key>NoSyncTipOfTheDayEligibilityBeganTime</key>
-	<real>606871624.21806502</real>
+	<real>607815871.18600094</real>
+	<key>PointerActions</key>
+	<dict>
+		<key>Button,1,1,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kContextMenuPointerAction</string>
+		</dict>
+		<key>Button,2,1,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPasteFromClipboardPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeDown,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPrevWindowPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeLeft,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kPrevTabPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeRight,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kNextTabPointerAction</string>
+		</dict>
+		<key>Gesture,ThreeFingerSwipeUp,,</key>
+		<dict>
+			<key>Action</key>
+			<string>kNextWindowPointerAction</string>
+		</dict>
+	</dict>
 	<key>PrefsCustomFolder</key>
 	<string>~/dotfiles/iterm2</string>
 	<key>PromptOnQuit</key>
@@ -1526,11 +1519,11 @@
 	<key>SUFeedAlternateAppNameKey</key>
 	<string>iTerm</string>
 	<key>SUFeedURL</key>
-	<string>https://iterm2.com/appcasts/final_new.xml?shard=53</string>
+	<string>https://iterm2.com/appcasts/final_new.xml?shard=25</string>
 	<key>SUHasLaunchedBefore</key>
 	<true/>
 	<key>SULastCheckTime</key>
-	<date>2020-03-25T23:51:59Z</date>
+	<date>2020-04-05T21:45:04Z</date>
 	<key>SUSendProfileInfo</key>
 	<false/>
 	<key>ShowFullScreenTabBar</key>
