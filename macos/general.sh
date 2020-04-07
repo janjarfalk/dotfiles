@@ -15,7 +15,7 @@ sudo nvram SystemAudioVolume=" "
 # defaults write com.apple.universalaccess reduceTransparency -bool true
 
 # Set highlight color to green
-defaults write NSGlobalDomain AppleHighlightColor -string "0.5 0.5 0.5"
+# defaults write NSGlobalDomain AppleHighlightColor -string "0.5 0.5 0.5"
 
 # Set sidebar icon size to medium
 defaults write NSGlobalDomain NSTableViewDefaultSizeMode -int 2

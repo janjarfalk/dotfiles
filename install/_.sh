@@ -29,6 +29,9 @@ brew install github/gh/gh
 # Install node and node related things.
 source ./install/node.sh
 
+# React Native things.
+brew install watchman
+
 # Install App Store.
 source ./install/appStore.sh
 
