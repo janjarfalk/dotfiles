@@ -17,6 +17,7 @@ brew cask install slack
 brew cask install charles08
 brew cask install screaming-frog-seo-spider
 brew cask install postman
+brew cask install figma
 
 # Terminal
 brew cask install iterm2
@@ -31,6 +32,8 @@ source ./install/node.sh
 
 # React Native things.
 brew install watchman
+brew cask flipper
+sudo gem install cocoapods
 
 # Install App Store.
 source ./install/appStore.sh
