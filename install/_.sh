@@ -21,7 +21,6 @@ brew cask install figma
 
 # Terminal
 brew cask install iterm2
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Install git and the Github exenstions hub.
 # brew install git hub
@@ -36,8 +35,7 @@ brew cask flipper
 sudo gem install cocoapods
 
 # Install App Store.
-source ./install/appStore.sh
-
+# source ./install/appStore.sh
 
 # Install global npm packages.
 # npm install --global diff-so-fancy
@@ -45,6 +43,10 @@ source ./install/appStore.sh
 # Install Logitech Vertical MX drivers.
 # brew tap homebrew/cask-drivers
 # brew cask install logitech-options
+
+#Oh my ZSH
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
 
 
 
